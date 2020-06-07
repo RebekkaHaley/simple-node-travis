@@ -1,3 +1,4 @@
+// set local variable populated by environment variable $FAVORITE_FOOD
 const favoriteFood = process.env.FAVORITE_FOOD;
 
 function sleep(ms) {
