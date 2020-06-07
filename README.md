@@ -1,6 +1,8 @@
 # Overview
 This is a very simple, bare-bones NodeJS project created for you to use with Docker.
 
+* NB: [Link to the original Udacity repo](https://github.com/udacity/nd9990-c3-microservices-exercises/tree/master/lesson-3-independent-releases/exercises/travis_env_var_exercise)
+
 # Local Setup
 * Install dependencies: `npm install`
 * Run server: `node server.js`
