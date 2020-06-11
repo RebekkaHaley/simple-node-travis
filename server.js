@@ -1,5 +1,5 @@
-// set local variable populated by environment variable $FAVOURITE_FOOD
-const FAVOURITE_FOOD = process.env.FAVOURITE_FOOD;
+// Set a local variable populated by the environment variable $NAME
+const FAVORITE_INSTRUCTOR = process.env.NAME;
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -7,12 +7,7 @@ function sleep(ms) {
 
 async function main() {
   while(true) {
-    
-    // start of updated code
-    console.log(`My favourite food is ${FAVOURITE_FOOD} <3`);
-    // end of updated code
-
-    console.log("Microservices rock!");
+    console.log(`${FAVORITE_INSTRUCTOR} rocks!`);
     await sleep(5000);
   }
 }
